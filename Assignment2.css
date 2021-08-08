@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.title{
+    background-color: aqua;
+    /* margin-top: 10rem; */
+    margin: 1.0rem auto ;
+    padding: .5rem;
+    margin-bottom: 5.0rem;
+    text-align: center;
+    height: auto;
+    width: 40.0rem;
+    font-size: 3rem;
+    border-radius: 4.0rem;
+}
+.boxes{
+    display: flex;
+    margin-bottom: 3.0rem;
+}
+.Box{
+    background-color: aqua;
+    margin: auto;
+    height: 22.0rem;
+    width: 32.0rem;
+    border-radius: 2.0rem;
+    padding-left: .9rem;
+    padding-top: .5rem;
+    font-size: 1.4rem;
+}
+.insider{
+    height: 13.0rem;
+    width: 26.0rem;
+    background-color: beige;
+    margin-top: 2.0rem;
+    margin-left: auto;
+    padding: .5rem;
+    margin-right: auto;
+    border-radius: 2.0rem;
+    text-align: left;
+}
+.android{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: darkblue;
+    width: 26.0rem;
+    height: 4.0rem;
+    border-radius: 2.0rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-bottom: 4.0rem;
+}
+.final{
+    display: flex;
+    background-color: aqua;
+    height: 70.0rem;
+    width: 90.0rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+.lexi1{
+    height: 30.0rem;
+    width: 40.0rem;
+    font-size: 4.0rem;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-left: 8.0rem;
+    align-self: center;
+}
+.lexi2{
+    height: 50.0rem;
+    width: 44.0rem;
+    margin-top: 3rem;
+    margin-left: 8.0rem;
+    margin-right: 8.0rem;
+    /* margin-bottom: 20rem; */
+    font-size: 1.5rem;
+    align-self: center;
+    text-align: center;
+    color: beige;
+    line-height: 3.0rem;
+}
+.lexi2 img{
+    border-radius: 50%;
+    margin-top: 2.0rem ;
+    margin-bottom: 2.0rem ;
+}
+.ending{
+    text-align: center;
+    margin: 7.0rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+    
+@media (max-width:1024px) {
+    html{
+        font-size: 55%;
+        align-content: center;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .final{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-content: center;
+        /* margin: 6rem auto; */
+    }
+    }
+@media (max-width:768px) {
+    html{
+        font-size: 45%;
+        align-content: center;
+    }
+    .boxes{
+        flex-direction: column;
+    }
+    .final{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-content: center;
+    }
+}
